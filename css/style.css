@@ -335,7 +335,7 @@ button.card-add:active {
 /* ARTICLE */
 
 .new-collection {
-    background-image: url(../img/article-bg.jpg);
+    background-image: url(../img/article-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 70px;
@@ -348,6 +348,7 @@ button.card-add:active {
 }
 div.text-content {
     width: 560px;
+    
 }
 .new-collection h2 {
     font-size: 40px;
@@ -358,7 +359,18 @@ div.text-content {
     padding-top: 70px;
     margin-bottom: 20px;
     margin-left: 120px;
+    position: relative;
 } 
+.new-collection h2::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/star-item.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    left: -120px;
+}
 .new-collection p {
     font-size: 18px;
     line-height: 27px;
