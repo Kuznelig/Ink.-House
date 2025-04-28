@@ -763,7 +763,6 @@ ul.social-list {
     }
     .card-list img.card-img {
         max-width: 290px;
-
     }
     .country-list button {
         padding: 8px 20px;
@@ -904,6 +903,7 @@ ul.social-list {
     .promo {
         max-width: 510px;
         padding: 0 33px;
+        margin-bottom: 52px;
     }
     div.promo-grid {
         grid-template-columns: 210px 1fr;
@@ -930,9 +930,70 @@ ul.social-list {
         font-size: 16px;
         line-height: 150%;
         margin-bottom: 10px;
+        max-width: 249px;
     }
     .promo a {
         padding: 12px 40px;
         font-size: 18px;
+    }
+
+    .products {
+        max-width: 510px;
+        padding: 0 33px;
+    }
+    .products .countries {
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+    .products h2 {
+        font-size: 24px;
+        line-height: 110%;
+        align-self: start;
+        margin-bottom: 18px;
+    }
+    div.slider-controls {
+        align-self: start;
+    }
+    ul.country-list {
+        min-width: 408px;
+    }
+    .country-list button {
+        padding: 8px 17px;
+    }
+    .card-list li {
+        width: 240px;
+    }
+    .card-list img.card-img {
+        max-width: 200px;
+        height: 250px;
+        margin-bottom: 16px;
+    }
+    .card-list h3 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .card-list p.author {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+    .card-list p.technique {
+        font-size: 16px;
+        line-height: 19px;
+        margin: 0;
+        margin-bottom: 10px;
+        min-height: 38px;
+    }
+    .card-list p.price {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 10px;
+        
+    }
+    button.card-add {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 15px 54px 12px;
     }
 }
