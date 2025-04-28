@@ -776,8 +776,13 @@ ul.social-list {
 
     .new-collection {
         min-height: 500px;
+        background-image: none;
+        
+
     }
     div.article-wrapper {
+        background-image: url(../img/article-bg-690.png);
+        background-size: contain;
         max-width: 690px;
         margin: 0 auto;
         padding: 0 39px;
@@ -940,6 +945,7 @@ ul.social-list {
     .products {
         max-width: 510px;
         padding: 0 33px;
+        margin-bottom: 50px;
     }
     .products .countries {
         flex-direction: column;
@@ -995,5 +1001,48 @@ ul.social-list {
         font-size: 18px;
         line-height: 21px;
         padding: 15px 54px 12px;
+    }
+    .new-collection {
+        min-height: 410px;
+        background-image: none;
+    }
+    
+    
+    div.article-wrapper {
+        background-image: url(../img/article-bg-510.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-width: 510px;
+        margin: 0 auto;
+        padding: 0 33px;
+    }
+    .new-collection h2 {
+        font-size: 24px;
+        margin-left: 70px;
+        margin-bottom: 24px;
+        padding-top: 52px;
+        max-width: 261px;
+    }
+    .new-collection h2::before {
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/star-icon-510.svg);
+        left: -70px;
+    }
+    .new-collection p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 130%;
+    }
+    div.text-content {
+        width: 510px;
+    }
+    .new-collection a {
+        font-family: inherit;
+        margin-top: 0;
+        padding: 15px 25px 15px 35px;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
     }
 }
