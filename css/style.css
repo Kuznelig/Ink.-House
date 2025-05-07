@@ -328,6 +328,8 @@ ul.card-list {
     margin-bottom: 20px;
     display: block;
     max-width: 310px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .card-list h3 {
@@ -1211,6 +1213,7 @@ ul.social-list {
         max-width: 250px;
         height: 250px;
         margin-bottom: 16px;
+        object-fit: fill;
     }
     .new-collection {
         min-height: 553px;
